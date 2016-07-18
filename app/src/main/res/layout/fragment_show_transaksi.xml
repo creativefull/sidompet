@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/show_transaksi"
+    android:padding="10dp"
+    android:textAlignment="center">
+    <TextView
+        android:id="@+id/show_keterangan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Keterangan"
+        android:textSize="20dp"
+        android:textAlignment="center"/>
+    <TextView
+        android:id="@+id/show_amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rp 80,000.00"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+    <TextView
+        android:id="@+id/show_tanggal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2016-04-20"
+        android:textSize="15dp"
+        android:textAlignment="center"/>
+</LinearLayout>
